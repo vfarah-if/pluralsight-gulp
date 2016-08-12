@@ -6,6 +6,8 @@
         .controller('CustomerDetail', CustomerDetail);
 
     CustomerDetail.$inject = ['$stateParams', '$window', 'dataservice', 'logger'];
+	
+  
     /* @ngInject */
     function CustomerDetail($stateParams, $window, dataservice, logger) {
         var vm = this;
